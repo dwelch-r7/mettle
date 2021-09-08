@@ -10,6 +10,7 @@
 #include <string.h>
 #include <unistd.h>
 #include <pty.h>
+#include <termios.h>
 
 #include <sys/param.h>
 #include <sys/types.h>

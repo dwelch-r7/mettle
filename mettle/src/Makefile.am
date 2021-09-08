@@ -11,7 +11,6 @@ libmettle_la_LIBADD += -ljson-c
 libmettle_la_LIBADD += -lpthread
 libmettle_la_LIBADD += -lsigar
 libmettle_la_LIBADD += -lz
-libmettle_la_LIBADD += -lutil
 
 if HAVE_REFLECT
 libmettle_la_LIBADD += -lreflect
@@ -52,6 +51,7 @@ else
 libmettle_la_SOURCES += console.c linenoise.c
 libmettle_la_SOURCES += process.c
 libmettle_la_SOURCES += service.c
+libmettle_la_LIBADD += -lutil
 endif
 libmettle_la_SOURCES += util.c
 if HOST_APPLE
