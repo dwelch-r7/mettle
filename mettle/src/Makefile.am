@@ -59,6 +59,7 @@ libmettle_la_SOURCES += stdapi/webcam/apple_webcam.m
 libmettle_la_SOURCES += stdapi/audio/apple_output.m
 libmettle_la_SOURCES += stdapi/audio/posix_output.c
 libmettle_la_SOURCES += stdapi/clipboard/apple_clipboard.m
+libmettle_la_SOURCES += stdapi/sys/posix_process.c
 endif
 if HOST_OSX
 libmettle_la_SOURCES += stdapi/ui/osx_desktop.m
