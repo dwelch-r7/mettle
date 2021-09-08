@@ -21,7 +21,7 @@
 #include "process.h"
 #include "buffer_queue.h"
 #include "uthash.h"
-#include "util.h"
+#include "utils.h"
 #include "../util/util-common.h"
 
 struct process_queue {

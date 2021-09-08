@@ -1,7 +1,7 @@
 /**
  * Copyright 2015 Rapid7
  * @brief Miscelaneous system functions
- * @file util.h
+ * @file utils.h
  */
 
 #ifndef _UTIL_H_

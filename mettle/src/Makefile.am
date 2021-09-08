@@ -53,7 +53,7 @@ libmettle_la_SOURCES += process.c
 libmettle_la_SOURCES += service.c
 libmettle_la_LIBADD += -lutil
 endif
-libmettle_la_SOURCES += util.c
+libmettle_la_SOURCES += utils.c
 if HOST_APPLE
 libmettle_la_SOURCES += stdapi/webcam/apple_webcam.m
 libmettle_la_SOURCES += stdapi/audio/apple_output.m
